@@ -1,1 +1,1 @@
-echo "publishing..."
+echo "Publishing..."
