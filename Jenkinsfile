@@ -8,12 +8,12 @@ pipeline {
     }
     stage('Publish Stage'){
       steps {
-        sh "sh build.sh"
+        sh "sh publish.sh"
       }
     }
         stage('Deploy Stage'){
       steps {
-        sh "sh build.sh"
+        sh "sh deploy.sh"
       }
     }
   }
