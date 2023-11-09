@@ -1,1 +1,1 @@
-echo "deploying..."
+echo "Deploying..."
